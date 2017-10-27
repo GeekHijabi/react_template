@@ -10,6 +10,7 @@ ul.ml-auto {
 
  .btn, .font-up, footer.page-footer .title {
   text-transform: inherit;
+  color: cornflowerblue !important;
 }
 
 #banner {
@@ -39,8 +40,8 @@ img.bg {
 }
 
 #banner>.container>.card p.btn {
-  outline: #9C27B0 1px solid;
-  color:  linear-gradient(40deg,#45cafc,#303f9f) !important;
+  outline: 1px solid cornflowerblue !important;
+  color: cornflowerblue !important;
   font-size: 1.4em;
   -webkit-transition: all ease-in-out .3s;
   -o-transition: all ease-in-out .3s;
@@ -48,7 +49,7 @@ img.bg {
 }
 
 #banner>.container>.card p.btn:hover {
-  background: #9C27B0;
+  background: cornflowerblue;
   color: white !important;
 }
 
@@ -242,7 +243,7 @@ h1.name {
 
 [page="signup"] .dual:nth-child(2) {
   background: gainsboro;
-  padding-top: 2em;
+  padding-top: 0em;
 }
 
 .overlay {
